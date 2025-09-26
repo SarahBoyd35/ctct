@@ -29,7 +29,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    run: ./setup.ps1
+    run: ./setup1.ps1
 
     - uses: actions/checkout@v2
     - name: Starting CRD 
@@ -38,7 +38,7 @@ jobs:
 
     - name: Keep Alive
 
-      run: ./timeout.ps1
+      run: ./timeout1.ps1
 
   
 
